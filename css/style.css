@@ -130,8 +130,8 @@ th {
 }
 
 table.table.select-table th {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 600;
     font-size: 13px;
     line-height: 18px;
@@ -256,16 +256,16 @@ table.table.select-table th:last-child {
 .ms-left {
     margin-left: 42px;
     color: #495057;
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 300;
     font-size: 13px;
     line-height: 20px;
 }
 
 .cart-text {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -273,8 +273,8 @@ table.table.select-table th:last-child {
 }
 
 .product-list {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 13px;
     line-height: 110%;
@@ -323,8 +323,8 @@ span.number {
     left: -28px;
     top: 47px;
     background: #d9d9d9;
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 600;
     font-size: 7px;
     line-height: 10px;
@@ -402,8 +402,8 @@ input.form-control.quantity {
 }
 
 .cart-order span {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -415,8 +415,8 @@ input.form-control.quantity {
 }
 
 .item-style h3 {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 11px;
     line-height: 140%;
@@ -437,16 +437,16 @@ input.form-control.quantity {
 }
 
 .last-order h2 {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 600;
     font-size: 16px;
     line-height: 32px;
 }
 
 .invoice-table td {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 400;
     font-size: 10px;
     line-height: 15px;
@@ -454,7 +454,7 @@ input.form-control.quantity {
 }
 
 .invoice-table span {
-    font-family: "Poppins";
+    font-family: var(--font-family);
     font-style: italic;
     font-weight: 400;
     font-size: 8px;
@@ -475,8 +475,8 @@ input.form-control.quantity {
 }
 
 .bg-invoice td {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 13px;
     line-height: 25px;
@@ -484,8 +484,8 @@ input.form-control.quantity {
 }
 
 .bg-invoice td:nth-child(2) {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 400;
     font-size: 10px;
     color: #637381;
@@ -512,16 +512,16 @@ table.table.view-summary td {
 }
 
 .view-summary h3 {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 14px;
     color: #1d1e20;
 }
 .dot-indicators .nav-link {
     padding-left: 24px;
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 6px;
     line-height: 9px;
@@ -555,8 +555,8 @@ footer {
 }
 
 footer p a {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 6px;
     line-height: 9px;
@@ -565,8 +565,8 @@ footer p a {
 }
 
 footer p {
-    font-family: "Poppins";
-    font-style: normal;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
     font-weight: 500;
     font-size: 6px !important;
     line-height: 9px;
