@@ -342,10 +342,11 @@ span.number {
 }
 
 input.form-control {
-    width: 66px;
+    width: 60px;
     text-align: center;
     background: transparent;
-    border: 0;
+    border: 1px solid #ddd;
+    margin: 0px 4px;
 }
 
 input.form-control.quantity {
@@ -577,4 +578,20 @@ footer p {
 
 ul.nav.dot-indicators li {
     position: relative;
+}
+
+.table.qty-table th:first-child {
+    padding-left: 0;
+}
+
+.table.qty-table td:first-child {
+    padding-left: 0;
+}
+
+.select-table td {
+    color: #637381;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: 400;
+    font-size: 11px;
 }
